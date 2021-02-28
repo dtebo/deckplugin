@@ -1,11 +1,11 @@
 {
     "Actions": [
         {
-            "Icon": "actionIcon",
-            "Name": "Counter",
+            "Icon": "./images/actions/power",
+            "Name": "TestPlugin",
             "States": [
                 {
-                    "Image": "actionDefaultImage",
+                    "Image": "./images/actions/power",
                     "TitleAlignment": "middle",
                     "FontSize": "16"
                 }
@@ -20,7 +20,7 @@
     "CodePath": "src/code.html",
     "Description": "This let's you do some custom stuff!",
     "Name": "TestPlugin",
-    "Icon": "pluginIcon",
+    "Icon": "./images/on",
     "URL": "https://github.com/dtebo/deckplugin",
     "Version": "1.2",
     "OS": [
