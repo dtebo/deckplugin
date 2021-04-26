@@ -1,0 +1,35 @@
+{
+    "Actions": [
+        {
+            "Icon": "./images/actions/power",
+            "Name": "TestPlugin",
+            "States": [
+                {
+                    "Image": "./images/actions/power",
+                    "TitleAlignment": "middle",
+                    "FontSize": "16"
+                }
+            ],
+            "SupportedInMultiActions": false,
+            "Tooltip": "My First Plugin!",
+            "UUID": "com.example.testplugin.action"
+        }
+    ],
+    "SDKVersion": 2,
+    "Author": "Darren Tebo",
+    "CodePath": "src/code.html",
+    "Description": "This let's you do some custom stuff!",
+    "Name": "TestPlugin",
+    "Icon": "./images/on",
+    "URL": "https://github.com/dtebo/deckplugin",
+    "Version": "1.2",
+    "OS": [
+        {
+            "Platform": "windows",
+            "MinimumVersion": "10"
+        }
+    ],
+    "Software": {
+        "MinimumVersion": "4.1"
+    }
+}
